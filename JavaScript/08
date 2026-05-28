@@ -1,0 +1,7 @@
+const temperatura = 31; // Defina a temperatura aqui
+
+if (temperatura > 30) {
+  console.log("Está calor");
+} else {
+  console.log("Está um clima agradável");
+}
