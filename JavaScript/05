@@ -1,0 +1,7 @@
+let nota = 10; // Substitua pelo valor da nota
+
+if (nota >= 10) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
