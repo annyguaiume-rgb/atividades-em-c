@@ -1,0 +1,7 @@
+let diaDaSemana = 6; // Altere este número de 1 a 7 para testar
+
+if (diaDaSemana === 6 || diaDaSemana === 7) {
+    console.log("É fim de semana!");
+} else {
+    console.log("É dia útil!");
+}
