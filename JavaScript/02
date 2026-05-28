@@ -1,7 +1,8 @@
-let num = number(prompt("digite um numero"));
+numero = float(input("Digite um número: "))
 
-if(num % 2 == 0){
-  console.log("o numero "+ num + "e par");
-}else{
-  console.log("o numero "+ num + " e impar")
-}
+if numero > 0:
+    print("O número é positivo")
+elif numero < 0:
+    print("O número é negativo")
+else:
+    print("O número é zero")
