@@ -1,0 +1,18 @@
+function verificarVogalOuConsoante(letra) {
+    // Converte a letra para minúscula para evitar erros de maiúsculas/minúsculas
+    const caractere = letra.toLowerCase();
+    
+    // Lista de vogais
+    const vogais = "aeiou";
+    
+    // Verifica se o caractere é uma vogal
+    if (vogais.includes(caractere)) {
+        console.log(`A letra "${letra}" é uma vogal.`);
+    } else {
+        console.log(`A letra "${letra}" é uma consoante.`);
+    }
+}
+
+// Testando a função
+verificarVogalOuConsoante("A"); // Output: A letra "A" é uma vogal.
+verificarVogalOuConsoante("b"); // Output: A letra "b" é uma consoante.
