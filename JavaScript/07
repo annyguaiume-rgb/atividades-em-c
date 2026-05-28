@@ -1,0 +1,7 @@
+let quantidade = 6; // Exemplo de quantidade de itens
+
+if (quantidade > 5) {
+    console.log("Tens direito a um desconto!");
+} else {
+    console.log("Sem desconto disponível");
+}
