@@ -1,8 +1,9 @@
-numero = float(input("Digite um número: "))
+const numero = 5;
 
-if numero > 0:
-    print("O número é positivo")
-elif numero < 0:
-    print("O número é negativo")
-else:
-    print("O número é zero")
+if (numero > 0) {
+  console.log("O número é positivo");
+} else if (numero < 0) {
+  console.log("O número é negativo");
+} else {
+  console.log("O número é zero");
+}
