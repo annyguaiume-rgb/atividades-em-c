@@ -1,0 +1,4 @@
+const nome  = "anny";
+let idade = 17;
+let energia = 100; 
+console.log("o heroi, "+ nome + "tem " + idade + "anos e sua energia atual é" + energia + ".");
